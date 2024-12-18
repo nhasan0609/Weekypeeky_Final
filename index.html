@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly Planner</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Weekly Planner</h1>
+    <form id="weekForm">
+        <label for="weekNumber">Select Week (Unit) Number: </label>
+        <select id="weekNumber" name="weekNumber" onchange="selectSubject()">
+            <option value="">Select a week or unit</option>
+            <option value="1">Week 1</option>
+            <option value="2">Week 2</option>
+            <option value="3">Week 3</option>
+            <option value="4">Week 4</option>
+            <option value="5">Week 5</option>
+            <option value="6">Week 6</option>
+            <option value="7">Week 7</option>
+            <option value="8">Week 8</option>
+            <option value="9">Week 9</option>
+        </select>
+    </form>
+    <div id="subjectSelectionContainer"></div>
+    <div id="tasksContainer"></div>
+    <div id="extraTaskContainer"></div>
+    <div id="reportContainer"></div>
+    <script src="script.js"></script>
+</body>
+</html>
